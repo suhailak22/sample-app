@@ -1,3 +1,6 @@
 [submodule "aws-codebuild-polyglot-application"]
 	path = aws-codebuild-polyglot-application
 	url = https://github.com/suhailak22/aws-codebuild-polyglot-application.git
+[submodule "WebApp-Microservice-ST"]
+	path = WebApp-Microservice-ST
+	url = https://github.com/suhailak22/WebApp-Microservice-ST.git
