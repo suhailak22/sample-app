@@ -3,11 +3,12 @@ version: 0.2
 phases:
   install:
     commands:
-      - pip install --upgrade awscli
+      #- pip install --upgrade awscli
   pre_build:
     commands:
       - echo Entering pre_build phase...
       - echo Test started on `date`
+      - cd sample-app
       - mvn clean compile test
   build:
     commands:
